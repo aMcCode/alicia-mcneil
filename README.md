@@ -1,0 +1,2 @@
+--Starting mobile first
+--targeting 575px, 768px and 980px
