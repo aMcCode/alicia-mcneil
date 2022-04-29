@@ -11,33 +11,73 @@
 <body>
 
     <div class="body-wrapper-div">
-        <img class = nav-img src="./assets/images/mainbackground.jpg" alt="Pink watercolor vector created by freepik - www.freepik.com" />
-
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-
-        <div class="menu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contactMe">Contact</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>           
-            </ul>
+        <div class="sticky-header">
+            <img class = nav-img src="./assets/images/mainbackground.jpg" alt="Pink watercolor vector created by freepik - www.freepik.com" />
+            <!-- <input type="checkbox" class="toggler"> -->
+            <a id="toggler2" href="#">Toggle menu</a>
+            <!-- <div class="hamburger"><div></div></div> -->
+            <nav class="nav-menu" id="menu">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="about-alicia">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactMe">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>           
+                </ul>
+            </nav>
         </div>
 
-        <main class="main">
-            <div class="main-background"></div>
+        <main class="main" id="main">
+            <div class="main-background">
+            </div>
+            <div class="left-flower">
+                <img class="left-flower-peek-img" src="./assets/images/My-project.png" alt="decorative flower, top left of page" />
+            </div>
+            <div class="right-heart">
+                <img class="heart-img" src="./assets/images/heart.png" alt="decorative heart, right side" />
+            </div>
 
-            <header class="header">
-                <h1>Alicia McNeil's online programming showcase!</h1>
+            <header class="header" id="main-header">
+                <h1>Alicia McNeil's programming showcase! Welcome!</h1>
             </header>
-
-            
-        </main>
     
+            <section class="about" id="about-alicia">
+                <div id="about-header-div">
+                    <h2 class="section-header">ABOUT</h2>
+                    <h3 class="secondary-section-header">Who is Alicia?</h3>
+                </div>
+                <div id="question-pic-div">
+                    <img id="question-amcn" src="/assets/images/Aperio_Alicia McNeilFun_Headshots_Square_Print.jpg" alt="questioning pic of Alicia">
+                </div>
+                <div id="bio-div">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates beatae corporis deleniti aspernatur, quae repudiandae itaque eos facere dolorem nisi perspiciatis nam, consectetur asperiores quidem eaque maxime pariatur culpa quaerat.</p>
+                </div>
+                <aside id="inspiration-vase-pic">
+                    <img id="vase-img" src="/assets/images/inspire-vase.jpg" alt="image inspirational vase">
+                </aside>
+                    <div class="site-style-inspiration"></div>    
+                </aside>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="run-buddy"></div>
+                <div class="horizeon"></div>
+            </section>
+
+            <section class="contact" id="contactMe">
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-wrapper">
+                <p>Created with love by Alicia </p>
+
+            </div>
+        </footer>
+
     </div>
 
 </body>
