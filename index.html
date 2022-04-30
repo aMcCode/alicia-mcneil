@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>alicia-mcneil-profile</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -19,7 +19,7 @@
             <nav class="nav-menu" id="menu">
                 <ul>
                     <li><a href="#main">Home</a></li>
-                    <li><a href="about-alicia">About</a></li>
+                    <li><a href="#about-alicia">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contactMe">Contact</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -40,41 +40,68 @@
             </div>
 
             <header class="header" id="main-header">
-                <h1>Alicia McNeil's programming showcase! Welcome!</h1>
+                <h1>Alicia McNeil's Programming Showcase! Welcome!</h1>
             </header>
-    
+
             <section class="about" id="about-alicia">
                 <div id="about-header-div">
                     <h2 class="section-header">ABOUT</h2>
                     <h3 class="secondary-section-header">Who is Alicia?</h3>
                 </div>
                 <div id="question-pic-div">
-                    <img id="question-amcn" src="/assets/images/Aperio_Alicia McNeilFun_Headshots_Square_Print.jpg" alt="questioning pic of Alicia">
+                    <img id="question-amcn" src="./assets/images/Aperio_Alicia McNeilFun_Headshots_Square_Print.jpg" alt="questioning pic of Alicia">
                 </div>
                 <div id="bio-div">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates beatae corporis deleniti aspernatur, quae repudiandae itaque eos facere dolorem nisi perspiciatis nam, consectetur asperiores quidem eaque maxime pariatur culpa quaerat.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates beatae corporis deleniti aspernatur, quae repudiandae itaque eos facere dolorem nisi perspiciatis nam, consectetur asperiores quidem eaque maxime pariatur culpa quaerat. One of my passions is collecting vases and miniture tea sets. The vase below is the inspiration for the design of this website.</p>
                 </div>
                 <aside id="inspiration-vase-pic">
-                    <img id="vase-img" src="/assets/images/inspire-vase.jpg" alt="image inspirational vase">
-                </aside>
-                    <div class="site-style-inspiration"></div>    
+                    <img id="vase-img" src="./assets/images/inspire-vase.jpg" alt="image inspirational vase">
                 </aside>
             </section>
 
             <section class="projects" id="projects">
-                <div class="run-buddy"></div>
-                <div class="horizeon"></div>
+                <div class="project-div">
+                    <h2 class="section-header">Projects</h2>
+                    <h3 class="secondary-section-header">Horizeon</h3>
+                    <a href="https://amccode.github.io/run-buddy/" >
+                        <img class="project-img" src="./assets/images/horizeon.png" alt="image of Horizeon site">
+                    </a>
+                    <h3 class="secondary-section-header">Run Buddy</h3>
+                    <a href="https://amccode.github.io/run-buddy/" >
+                    <img class="project-img" src="./assets/images/runbuddy.png" alt="image of run buddy site">
+                    </a>
+                    <h3 class="secondary-section-header">Project 3</h3>
+                    <img class="project-img" src="http://via.placeholder.com/350x179" alt="place-holder image for project 3">
+                    <h3 class="secondary-section-header">Project 4</h3>
+                    <img class="project-img" src="http://via.placeholder.com/350x179" alt="place-holder image for project 4">
+                </div>
             </section>
 
             <section class="contact" id="contactMe">
+                <div class="contact-div">
+                    <h2 class="section-header">Get in Touch</h2>
+                <div class="contact-form">
+                    <p>Submit the form below and I'll respond within 2 business days. I look forward to hearing from you!</p>
+                    <form>
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name" placeholder="Your Name" />
+                        <label for="email">Enter email address:</label>
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                        <label for="phone">Enter a telephone number:</label>
+                        <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" placeholder="Please provide a brief summary of your request."></textarea>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                </div>
             </section>
 
         </main>
 
         <footer>
             <div class="footer-wrapper">
-                <p>Created with love by Alicia </p>
-
+                <h3>Created with ❤️ by Alicia </h3>
             </div>
         </footer>
 
