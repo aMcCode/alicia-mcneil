@@ -9,3 +9,4 @@ Alicia McNeil's Profile (Challenge 2)
 #### * Explore using function clamp() to improve text resizing
 #### * Update image files w/in paint or something so they aren't so large and are maybe easier to manage in the html.
 
+![Alt text](./assets/images/profile_screenshot.png?raw=true "Assignment Screenshot")
