@@ -13,7 +13,7 @@
 }
 
 html { 
-    min-height: 100vh;
+    min-height: 625vh;
     height: 100%;
     display: block;
     background-color: #000; 
@@ -22,9 +22,11 @@ html {
 body {
     display: block;
     overflow-x: hidden;
-    min-height: 100vh;
+    min-height: 625vh;
     max-width: 100%;
     background-image: url('../images/mainbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
     font-family: Georgia, Helvetica, Arial, sans-serif;
 }
@@ -118,7 +120,6 @@ p {
     font-family: cursive;
 }
 
-
 .main {
     min-height: 100vh;
     height: 100%;
@@ -127,7 +128,7 @@ p {
 .main-background{
     top: 0;
     background-image: url('../images/mainbackground.jpg');
-    min-height: 100vm;
+    /* min-height: 100vh; */
     height: 100%;
     width: 100%;
     /* background-attachment: fixed; */
@@ -145,6 +146,7 @@ p {
     position: relative;
     top: -30vh;
     left: -15vw;
+    /* max-width: 45%; */
     width: 70%;
     height: 15%;
 }
@@ -217,10 +219,15 @@ p {
     margin: 0 auto;
 }
 
+.form-contact {
+    padding-left: 20%;
+    width: 60%;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     border: 3px solid var(--primary-color);
     padding-bottom: 15px;
 }
@@ -236,7 +243,7 @@ p {
     padding: 7px 15px;
     font-size: .7rem;
     color: var(--secondary-color);
-    width: 100%;
+    width: 150%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
@@ -283,4 +290,486 @@ footer h3 {
     width: 100%;
 }
 
-@media (min-width: 640px) { body {font-size:1rem;} }
+/* SETTING RELATIVE POSITION FOR ALL SECTIONS */
+.main-intro {
+    position: absolute;
+}
+
+.about {
+    position: relative;
+    top: 60vh;
+}
+
+.projects {
+    position: relative;
+    top: 65vh;
+}
+
+.contact {
+    position: relative;
+    top: 65vh;
+}
+
+.footer {
+    position: relative;
+    top: 65vh;
+}
+
+@media (min-width: 417px) {
+    html body {
+        min-height: 750vh;
+    }
+
+}
+
+@media (min-width: 473px) {
+
+    .left-flower-peek-img {
+        width: 60%;
+    }
+
+    .header h1 {
+        font-size: 6vh;
+    }
+    
+    .heart-img {
+        left: 50vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    }    
+}
+
+@media (min-width: 525px) {
+
+    .left-flower-peek-img {
+        width: 65%;
+    }
+
+    .header h1 {
+        font-size: 7vh;
+    }
+    
+    .heart-img {
+        left: 63vh;
+        width: 35%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    } 
+    
+    .about {
+        top: 85vh;
+    }
+
+    .projects {
+        top: 90vh;
+    }
+
+    .contact {
+        top: 90vh;
+    }
+
+    .footer {
+        top: 90vh; 
+    }
+}
+
+@media (min-width: 610px) {
+
+    html body {
+        min-height: 850vh;
+    }
+
+    .left-flower-peek-img {
+        width: 65%;
+    }
+
+    .header h1 {
+        font-size: 8vh;
+    }
+    
+    .heart-img {
+        left: 75vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    } 
+    
+    .about {
+        top: 105vh;
+    }
+
+    .projects {
+        top: 110vh;
+    }
+
+    .contact {
+        top: 110vh;
+    }
+
+    .footer {
+        top: 110vh; 
+    }
+}
+
+@media (min-width: 740px) {
+
+    html body {
+        min-height: 950vh;
+    }
+
+    .left-flower-peek-img {
+        width: 65%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 8vh;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    } 
+    
+    .about {
+        top: 125vh;
+    }
+
+    .projects {
+        top: 130vh;
+    }
+
+    .contact {
+        top: 130vh;
+    }
+
+    .footer {
+        top: 130vh; 
+    }
+}
+
+@media (min-width: 825px) {
+
+    html body {
+        min-height: 1000vh;
+    }
+
+    .left-flower-peek-img {
+        width: 65%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 8vh;
+        top: -95vh;
+        left: 65vh;
+        width:60vw;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        top: -80vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    } 
+    
+    .about {
+        top: 100vh;
+    }
+
+    .projects {
+        top: 105vh;
+    }
+
+    .contact {
+        top: 105vh;
+    }
+
+    .footer {
+        top: 110vh; 
+    }
+}
+
+@media (min-width: 948px) {
+
+    html body {
+        min-height: 1020vh;
+    }
+
+    .left-flower-peek-img {
+        width: 65%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 8vh;
+        top: -95vh;
+        left: 65vh;
+        width:60vw;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        top: -80vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 38%;
+    } 
+    
+    .about {
+        top: 110vh;
+    }
+
+    .projects {
+        top: 118vh;
+    }
+
+    .contact {
+        top: 120vh;
+    }
+
+    .footer {
+        top: 125vh; 
+    }
+}
+
+@media (min-width: 1024px) {
+
+    html body {
+        min-height: 1060vh;
+    }
+
+    .left-flower-peek-img {
+        width: 55%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 8vh;
+        top: -95vh;
+        left: 65vh;
+        width:60vw;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        top: -80vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 30%;
+    } 
+    
+    .about {
+        top: 110vh;
+    }
+
+    .projects {
+        top: 118vh;
+    }
+
+    .contact {
+        top: 120vh;
+    }
+
+    .footer {
+        top: 125vh; 
+    }
+}
+
+@media (min-width: 1180px) {
+
+    html body {
+        min-height: 1170vh;
+    }
+
+    .left-flower-peek-img {
+        width: 55%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 10vh;
+        top: -95vh;
+        left: 85vh;
+        width:60vw;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        top: -80vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 30%;
+    } 
+    
+    .about {
+        top: 150vh;
+    }
+
+    .projects {
+        top: 155vh;
+    }
+
+    .contact {
+        top: 160vh;
+    }
+
+    .footer {
+        top: 165vh; 
+    }
+}
+
+@media (min-width: 1280px) {
+
+    html body {
+        min-height: 970vh;
+    }
+
+    .left-flower-peek-img {
+        width: 55%;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 3rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    
+    .header h1 {
+        font-size: 10vh;
+        top: -95vh;
+        left: 85vh;
+        width:60vw;
+    }
+    
+    .heart-img {
+        left: 90vh;
+        top: -80vh;
+        width: 30%;
+    }
+    
+    #question-amcn-img {
+        width: 30%;
+    } 
+    
+    .about {
+        top: 130vh;
+    }
+
+    .projects {
+        top: 135vh;
+    }
+
+    .contact {
+        top: 140vh;
+    }
+
+    .footer {
+        top: 145vh; 
+    }
+}
